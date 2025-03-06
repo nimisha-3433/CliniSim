@@ -29,6 +29,6 @@ The progress and key updates for our project.
 
 ---
 
-## 🚀 What's Next?
+## What's Next?
 
 Implementing the complete workflow for Marfan Syndrome as the UI is complete.
