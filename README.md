@@ -10,22 +10,22 @@ The progress and key updates for our project.
 - We created the repository to begin work on the project.
 
 ### **Jan 15, 2025** - Initial User Interface Update
-- The first update to the user interface was implemented, marking the start of our design phase.
+- The first update to the user interface was implemented.
 
 ### **Jan 18, 2025** - Transparency Effects Added
-- Transparency effects were incorporated into both the user interface and the chatbot for a modern look.
+- We implemented transparency effects into the user interface and the chatbot for a modern design.
 
 ### **Jan 19, 2025** - Chatbox Animations Added
-- Animated effects were introduced to the chatbox, enhancing the interaction experience.
+- Animated effects were added to the chatbox.
 
 ### **Feb 6, 2025** - Final Chatbot Update
-- The chatbot reached its final iteration with various improvements and optimizations.
+- The chatbot reached its final update and improvement.
 
 ### **Mar 5, 2025** - Complete UI Rework
-- A complete rework of the user interface was undertaken to improve functionality and user experience.
+- We did a complete rework of the user interface to improve functionality.
 
 ### **Mar 6, 2025** - 3D Model for the Patient
-- A 3D model for the patient was designed to add a visual representation and improve the overall experience.
+- We added a 3D model for the patient to improve the user experience.
 
 ---
 
