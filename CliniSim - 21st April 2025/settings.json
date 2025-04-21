@@ -1,0 +1,16 @@
+{
+    "theme": "blue",
+
+    "time_limit": 300,
+
+    "ollama_log": [
+        {
+        "role": "user",
+        "content": ""
+      },
+      {
+        "role": "assistant",
+        "content": "Okay, I got it."
+      }
+    ]
+}
