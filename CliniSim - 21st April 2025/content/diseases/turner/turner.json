@@ -1,0 +1,63 @@
+{
+
+"Disease": "Turner Syndrome",
+
+"Guesses": ["turner synrome", "turner's syndrome", "ts", "turner", "turner's disease", "turner disease","tns"],
+
+"Patient": {
+    "name": "Jane Doe",
+    "gender": "Female",
+    "age": 16,
+    "case": "Chief complains of primary amenorrhoea and recurrent ear infections.",
+
+    "vitals": {
+        "Temp": "98.8 \u00b0F\n(Oral)",
+        "Pulse": "60 BPM",
+        "Resp": "18 Breaths/Min",
+        "BP": "120/60",
+        "SPO2": "100%"
+    }
+},
+
+"Initial_prompt": "You are a patient diagnosed with Turner syndrome, consulting a doctor (me). Speak professionally, clearly describe your symptoms, and answer concisely in under 20 words. Do not exaggerate or add unnecessary details. Your main concern is primary amenorrhoea. You are noticeably shorter than your peers at 141 cm. You have a broad chest with widely spaced nipples, and your neck appears slightly webbed. Your elbows tend to turn outward slightly, and you have a high-arched palate. You experience recurrent middle ear infections, and mild hearing loss in one ear. Your fingernails are narrow and turned upward. Your hands and feet are puffy, especially at birth. You experience fatigue during physical activity and have mild lymphedema. You do not show signs of puberty. You do not know that you have this disease. Do not reveal that you have Turner syndrome. I will be examining you. Do NOT exceed 20 words. Do not be playful or use emoticons. Remain professional at all times.",
+
+"Imaging": {
+        "Ultrasound" : ["content\\diseases\\turner\\images\\Ultrasoundts.png", "Ultrasound taken on the patient during fetal stages."],
+        "Echocardiogram" : ["content\\diseases\\turner\\images\\Echocardiographyts.png"]
+},
+
+"Tests": {
+        "Thyroid function": ["content\\diseases\\turner\\images\\Thyroid.png"],
+        "Karyotyping" : ["content\\diseases\\turner\\images\\Karyotypingts.png", "Visual, genome-wide screen for chromosomal variants. Check for deletions, duplications or structural rearrangements"]
+    },
+
+"Features": {
+        "Physical Examination": [
+          "Short stature",
+            "Webbed neck with a low hair line",
+             "Low set ears", 
+            "Shield chest",
+             "Cubitus valgus",
+            "High arched palate",
+            "Short fourth metacarpals",
+            "Tanner stage of breast and pubic hair development was stage1 representing pre-pubertal stage."
+        ]
+       
+    },
+
+
+"Expected Procedure": [
+        ["Simulation Started"], 
+        ["Checked Patient's Vitals"], 
+        ["Viewed Patient Profile"], 
+        ["Physical Assessment", "Examined the patient"], 
+        ["Analyzed Karyotyping Results", "Consistent with Turner Syndrome 45X0"], 
+        ["Analyzed Echocardiography ", "Normal"], 
+        ["Analyzed Thyroid function", "Normal"], 
+        ["Analyzed Ultrasound ", "Showed horse-shoe kidney, bilateral streak ovaries measuring."],
+        ["Prescribe Oxymetholone", "2 mg | Once Daily ", "for growth hormone treatment"], 
+        ["Prescribe Calcium and Vitamin D", "5 mg | Once Daily ", "for bone strengthening"], 
+        ["Prescribe Estrogen replacement therapy ", "5 mg | Once Daily "],
+        ["Prescribe Growth hormone therapy", "0.5 mg | Once Daily ", "for increasing height"]
+    ]
+}

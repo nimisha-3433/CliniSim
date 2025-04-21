@@ -1,0 +1,65 @@
+{
+
+"Disease": "Down Syndrome",
+
+"Guesses": ["down syndrome", "down's syndrome", "dns", "ds", "down's disease", "down disease","down synd"],
+
+"Patient": {
+    "name": "Joey Markal",
+    "gender": "Male",
+    "age": 21,
+    "case": "Atrial septal defect closure was withheld due to the complicated pulmonary arterial hypertension.",
+
+    "vitals": {
+        "Temp": "98.8 \u00b0F\n(Oral)",
+        "Pulse": "60 BPM",
+        "Resp": "18 Breaths/Min",
+        "BP": "120/60",
+        "SPO2": "100%"
+    }
+},
+
+"Initial_prompt": "You are a patient diagnosed with Down syndrome, consulting a doctor (me). Speak professionally, clearly describe your symptoms, and answer concisely in under 20 words. Do not exaggerate or add unnecessary details. Your atrial septal defect was not surgically closed due to complications from pulmonary arterial hypertension. You have a flat facial profile, upward slanting palpebral fissures, and epicanthal folds. Your nasal bridge is flat, and your tongue tends to protrude. You have a short neck with excess skin at the nape. Your hands are broad with a single transverse palmar crease. You have hypotonia and mild intellectual disability. You speak slowly but clearly. You tend to tire easily and have difficulty keeping up during physical exertion. You experience occasional shortness of breath. You are friendly, cooperative, and expressive. You do not know that you have this disease. Do not reveal that you have Down syndrome. I will be examining you. Do NOT exceed 20 words. Do not be playful or use emoticons. Remain professional at all times.",
+
+"Imaging": {
+        "Chest Digital Radiography (DR)" : ["content\\diseases\\down\\images\\digitalradiography.png"],
+        "Echocardiogram": ["content\\diseases\\down\\images\\echocardiogram.png"]
+    },
+
+"Tests": {
+
+},
+
+"Features": {
+        "Physical Examination": [
+           "A pulse rate of 95 bpm,",
+           "Blood pressure of 113/55 mmHg, and pale purplish lips.",
+           "Cardiac percussion examination revealed leftward expansion of the heart border.",
+           "Auscultation revealed regular heart rhythm with mild hyperactivity of P2, but no discernible noise."
+        ],
+
+        "Imaging Examination": [
+            "The position and functionality of the PDA interventional closing device were normal, the right atrium and ventricle show enlarged diameters and increased wall thickness in the right ventricle ",
+            "The patient exhibits blood flow signals indicating left-to-right shunting that can be visualized in the atrium",
+            "A small regurgitant jet can be observed at the tricuspid valve during atrial contraction, with peak flow velocity of 398cm/s and a peak pressure gradient of 63mmHg"
+        ]
+       
+    },
+
+"Expected Procedure": [
+        ["Simulation Started"], 
+        ["Checked Patient's Vitals"], 
+        ["Viewed Patient Profile"], 
+        ["Physical Assessment", "Examined the patient"], 
+        ["Analyzed digital radiography","Presence of an atrial septal defect "], 
+        ["Analyzed Echocardiogram Results", "Sinus rhythm, right chamber hypertrophy"], 
+        ["Prescribe Bosentan", "2 mg | Once Daily ", "For management of pulmonary arterial hypertension"], 
+        ["Prescribe Sildenafil", "5 mg | Once Daily ", "For management of pulmonary arterial hypertension"], 
+        ["Prescribe Donepezil", "5 mg | Once Daily ", "For dementia"],
+        ["Prescribe Sertraline", "0.5 mg | Once Daily ", "For OCD management"],
+        ["Prescribe Carbamazepine", "5 mg | Once Daily ", "For seizure control"],
+        ["Prescribe Levothyroxine", "2.6 microgram | Once Daily ", "For treating hyperthyroidism"],
+        ["Prescribe Citalopram", "15 mg | Whenever required ", "For depression management"],
+        ["Correctly Diagnosed", "Down Syndrome"]
+    ]
+}
